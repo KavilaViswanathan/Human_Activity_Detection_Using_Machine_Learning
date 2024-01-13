@@ -6,7 +6,8 @@ This project focuses on Human Activity Detection using machine learning techniqu
 
 ## Dataset
 
-The dataset used in this project contains sensor data from accelerometers and gyroscopes, recorded during different human activities. Ensure the dataset is available and correctly formatted before running the code.
+TThe dataset used in this project is the [Human Activity Recognition with Smartphones dataset](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones) available on Kaggle. Download the dataset and ensure it is correctly formatted before running the code.
+
 
 ## File Descriptions
 
@@ -55,3 +56,7 @@ The dataset used in this project contains sensor data from accelerometers and gy
 - scikit-learn
 - Matplotlib
 - Seaborn
+
+## Conclusion
+
+Results indicate Linear SVM achieved 96.84% accuracy, outperforming Logistic Regression (95.49%) and Random Forest (92.20%) in human activity recognition.
